@@ -1,0 +1,24 @@
+código html:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Legal</title>
+</head>
+<body>
+    <script src="Js/scripts.js"></script>
+</body>
+</html>
+
+código js:
+
+let numero = parseFloat(prompt("Digite um algorismo/número: "));
+if (numero < 0) {
+    
+    alert("Você digitou um número negativo");
+} else if(numero > 0){
+    alert("Você digitou um número +");
+} else {
+    
+    alert("Você digitou 0");
+}
